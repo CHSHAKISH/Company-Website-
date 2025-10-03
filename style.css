@@ -336,7 +336,7 @@ body{
 
 .benefit-card__title{
   font-size:18px;
-  font-weight:700;
+  font-weight:300;
   margin-bottom:10px;
   align-self:stretch;        /* allow title to fill width if needed */
 }
