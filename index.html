@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Company — Resume Services</title>
+
+  <!-- Poppins font used in Figma -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="header" role="banner">
+    <div class="container header__container">
+      <!-- Logo (replace src with your file) -->
+      <div class="header__logo" aria-label="Company logo">
+        <img src="assets/logo.svg" alt="Company logo" class="logo-img">
+      </div>
+
+      <!-- Primary navigation -->
+      <nav class="nav" role="navigation" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a href="#" aria-current="page">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Services</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <!-- CTA button (no underline, glow applied in CSS) -->
+      <a href="#" class="header__cta" role="button">Get A Quote</a>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main>
+    <!-- Hero / above-the-fold -->
+    <section class="hero" aria-label="Hero">
+      <div class="container hero__container">
+        <!-- Left: Text content -->
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Your Resume
+            <br>
+            <span class="highlight">Deserves A Yes</span> Let’s
+            <br>
+            Make It Happen
+          </h1>
+
+          <p class="hero__desc">
+            If Your Resume Isn’t Getting Responses, It’s Time For An Upgrade.
+            <br>
+            Get An ATS-Optimized Resume Crafted By HR Experts To Help You
+            <br>
+            Land More Interviews. Our Resumes Are Designed To Get Your Foot
+            <br>
+            In The Door And Place Your Name At The Top Of The Shortlist.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#" class="btn btn--secondary">RESUME PACKAGES</a>
+            <a href="#" class="btn btn--danger">CONTACT US</a>
+          </div>
+        </div>
+
+        <!-- Right: Image + rating/stat cards -->
+        <aside class="hero__image-block" aria-hidden="false">
+          <!-- Replace with your hero image -->
+          <img src="assets/hero-girl.png" alt="Person holding books" class="hero__image">
+
+          <!-- Floating rating card (4.9) -->
+          <div class="hero__rating" role="group" aria-label="Instructor rating">
+            <div class="rating-score">4.9</div>
+            <div class="rating-stars">★★★★★</div>
+            <div class="rating-label">Instructor Rating</div>
+          </div>
+
+          <!-- Floating stats card (260+) -->
+          <div class="hero__stats" role="status" aria-label="Resumes created">
+            <img src="assets/resume-icon.svg" alt="" class="stats-icon" aria-hidden="true">
+            <div class="stats-text">
+              <div class="stats-number">260+</div>
+              <div class="stats-label">Online Resume<br>Created</div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Benefits / What you get -->
+    <section class="benefits" aria-label="What you get">
+      <div class="container">
+        <header class="benefits__header">
+          <div class="benefits__tag">What You Get</div>
+          <h2 class="benefits__title">
+            You’re Not Just Another Applicant And Your Resume Shouldn’t Look Like One
+          </h2>
+        </header>
+
+        <!-- Four feature cards -->
+        <div class="benefits__grid" role="list">
+          <article class="benefit-card" role="listitem">
+            <img src="assets/ats-icon.svg" alt="" class="benefit-card__icon" aria-hidden="true">
+            <h3 class="benefit-card__title">A Resume That Passes ATS Filters</h3>
+            <p class="benefit-card__desc">
+              Get a professionally written, keyword-optimized resume that lands in recruiter inboxes—not rejection piles.
+            </p>
+          </article>
+
+          <article class="benefit-card" role="listitem">
+            <img src="assets/cover-letter-icon.svg" alt="" class="benefit-card__icon" aria-hidden="true">
+            <h3 class="benefit-card__title">A Cover Letter That Gets Read</h3>
+            <p class="benefit-card__desc">
+              Stand out with a cover letter that speaks directly to the role and reflects your strengths.
+            </p>
+          </article>
+
+          <article class="benefit-card" role="listitem">
+            <img src="assets/linkedin-icon.svg" alt="" class="benefit-card__icon" aria-hidden="true">
+            <h3 class="benefit-card__title">A LinkedIn Profile That Works For You</h3>
+            <p class="benefit-card__desc">
+              Attract the right eyes, start conversations, and show up in recruiter searches.
+            </p>
+          </article>
+
+          <article class="benefit-card" role="listitem">
+            <img src="assets/interview-icon.svg" alt="" class="benefit-card__icon" aria-hidden="true">
+            <h3 class="benefit-card__title">Interview Confidence</h3>
+            <p class="benefit-card__desc">
+              Interview preparation with real HR professionals so you speak clearly, confidently, and convincingly.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
